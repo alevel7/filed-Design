@@ -18,7 +18,7 @@ select:focus {
 }
 
 .first-container {
-    background-image: url('/img/Subtraction19.png'), url('/img/Group351.png');
+    background-image: url('../img/Subtraction19.png'), url('../img/Group351.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
 }
@@ -130,7 +130,7 @@ option {
 
 
 .second-container {
-    background-image: url('/img/Group391.png');
+    background-image: url('../img/Group391.png');
     background-repeat: no-repeat;
     text-align: left;
     /* padding: 30px 15px 30px 15px; */
@@ -151,7 +151,7 @@ option {
 }
 
 .third-title {
-    background-image: url('/img/Group61.png');
+    background-image: url('../img/Group61.png');
     background-repeat: no-repeat;
     background-position: right top;
     font-size: 27px;
@@ -276,7 +276,7 @@ div.footer {
     .first-container {
         display: flex;
         justify-content: space-around;
-        background-image: url('/img/Ellipse8.png'), url('/img/RepeatGrid2.png'), url('/img/cirle1.png'), url('/img/cirle2.png'), url('/img/cirle3.png');
+        background-image: url('../img/Ellipse8.png'), url('../img/RepeatGrid2.png'), url('../img/cirle1.png'), url('../img/cirle2.png'), url('../img/cirle3.png');
         background-position: 65% 0%, 95% 0%, 50% 50%, 40% 50%, 30% 50%;
     }
 
@@ -317,7 +317,7 @@ div.footer {
     }
 
     .first-container>div.top>.screenshot {
-        background-image: url('/img/screenshotx2.png'), url('/img/Group61.png');
+        background-image: url('../img/screenshotx2.png'), url('../img/Group61.png');
         background-size: cover;
         width: 100%;
         height: 300px;
@@ -333,7 +333,7 @@ div.footer {
     }
 
     .second-container {
-        background-image: url('/img/Group\ 388.png');
+        background-image: url('../img/Group\ 388.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center, center;
