@@ -27,7 +27,12 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - run: exit 1
       - print_pipeline_id
+      - run:
+          name: on error
+          command: echo "Error caught in say hello"
+          when: on_fail
   print-hello:
     docker:
       - image: circleci/node:13.8.0
@@ -67,7 +72,7 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - save_hello_world_output
-      - print_output_file:
-          requires: [save_hello_world_output]
+      # - save_hello_world_output
+      # - print_output_file:
+      #     requires: [save_hello_world_output]
 
